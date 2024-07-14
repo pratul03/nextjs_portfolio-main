@@ -2,10 +2,12 @@
 import { motion } from 'framer-motion'
 import FadeIn from '../lib/variants'
 import AnimatedCounter from '../lib/animatedCounter'
+import { tech } from './FAQ'
+import * as React from 'react';
 
 const Services = () => {
   return (
-    <section id='services' className='z-30 -translate-y-1 bg-secondary'>
+    <section id='services' className='z-30 -translate-y-1 bg-primary/[0.85]'>
       <div className='container w-full py-[100px] lg:py-[200px]'>
         <div className='flex flex-col justify-between gap-12 px-2 lg:flex-row lg:px-0'>
           <motion.div
@@ -13,31 +15,34 @@ const Services = () => {
             initial='hidden'
             whileInView={'show'}
             viewport={{ once: true, amount: 0.8 }}
-            className='justify-betweenlg:mr-8 flex w-full flex-col lg:w-1/2'
+            className='flex w-full flex-col justify-between lg:mr-8 lg:w-1/2'
           >
-            <h1 className='pb-4 text-[40px] font-bold leading-[3rem]'>
-              What We do i help?
+            <h1 className='pb-4 text-[40px] font-bold leading-[3rem] text-gray-400'>
+              My <span className='text-secondary'>Services</span>
             </h1>
-            <p>
-              Contrary to popular belief, Lorem Ipsum is not simply random text.
-              It has roots in a piece of classical Latin literature from 45 BC,
-              making it over 2000 years old.
+            <p className='flex items-center font-semibold text-gray-500'>
+              I have the perfect solution for your web development needs. By
+              adopting a modern stack, like MERN,FULL-STACK and incorporating
+              TypeScript for enhanced type safety, we can create an exceptional
+              web application.
             </p>
             <div className='flex justify-between space-x-4 py-8'>
               <div className='flex flex-col items-center justify-center'>
-                <p className='text-lg font-semibold uppercase'> Projects</p>
-                <p className='text-[36px] font-bold text-blue'>
+                <p className='text-lg font-semibold text-gray-400'>
+                  Built Projects
+                </p>
+                <p className='text-[36px] font-bold text-orange-600'>
                   {' '}
-                  + <AnimatedCounter from={0} to={45} />
+                  + <AnimatedCounter from={0} to={21} />
                 </p>
               </div>
               <div className='flex flex-col items-center justify-center'>
-                <p className='text-lg font-semibold uppercase'>
+                <p className='text-lg font-semibold text-gray-500'>
                   {' '}
-                  satisfied client
+                  Git Commits
                 </p>
-                <p className='text-[36px] font-bold text-blue'>
-                  <AnimatedCounter from={0} to={25} />
+                <p className='text-[36px] font-bold text-secondary'>
+                  <AnimatedCounter from={0} to={91} />
                 </p>
               </div>
             </div>
@@ -50,26 +55,26 @@ const Services = () => {
             className='flex h-full flex-col gap-8'
           >
             <div className='flex items-center space-x-6 bg-primary p-4'>
-              <p className='text-6xl font-bold text-blue'>01</p>
+              <p className='text-6xl font-bold text-gray-400'>01</p>
               <div>
-                <h2 className='mb-2 text-2xl font-bold'>
+                <h2 className='mb-2 text-2xl font-bold text-orange-400'>
                   Front-end development
                 </h2>
-                <p>
-                  Covert your Figma/XD design to full responsive web app with
-                  react/next js or angular or HTML with tailwind css
+                <p className='flex items-center justify-center font-medium text-gray-400'>
+                  Build your web applications with modern web technologies like
+                  React, Next.js, and Tailwind CSS
                 </p>
               </div>
             </div>
             <div className='flex items-center space-x-6 bg-primary p-4'>
-              <p className='text-6xl font-bold text-blue'>02</p>
+              <p className='text-6xl font-bold text-secondary/[0.85]'>02</p>
               <div>
                 <h2 className='mb-2 text-2xl font-bold'>
                   Back-end development
                 </h2>
-                <p>
-                  buid your full web app with cutting-edge web development
-                  technologies
+                <p className='flex items-center justify-center font-medium text-gray-400'>
+                  Build scalable and secure back-end applications with Node.js,
+                  Express, and MongoDB OR Java , Spring Boot and MySQL.
                 </p>
               </div>
             </div>

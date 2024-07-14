@@ -7,14 +7,14 @@ import MobileNav from '@/components/mobileNav'
 
 const Header = () => {
   return (
-    <header className='fixed z-50 w-full bg-primary py-6 xl:py-8'>
+    <header className='fixed z-50 w-full bg-primary py-6 xl:py-8'> 
       <div className='container mx-auto flex items-center justify-between'>
         {/* logo */}
         <Link to='/' spy={true} smooth={true} className='cursor-pointer'>
           <Image src='/logo.svg' height={54.53} width={41.35} alt='logo' />
         </Link>
 
-        {/* disktop nav */}
+        {/* desktop nav */}
         <div className='hidden items-center gap-x-8 xl:flex'>
           <Nav />
           <Link

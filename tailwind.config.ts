@@ -13,7 +13,6 @@ const config = {
     container: {
       center: true,
       padding: '1rem'
-      
     },
     screens: {
       sm: '660px',
@@ -23,12 +22,16 @@ const config = {
     },
     extend: {
       colors: {
-        primary: '#16213F',
-        secondary: '#050D28',
+        primary: 'rgb(0,0,0)',
+        secondary: '#bf420f',
         lighted: '#EFEFEF',
         blue: {
           DEFAULT: '#336DFF',
           hover: '#336DFF'
+        },
+        orange: {
+          DEFAULT: '#af3c1f',
+          hover: '#d65124'
         }
       },
       keyframes: {
