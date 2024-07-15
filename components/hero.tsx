@@ -35,7 +35,9 @@ const Hero = () => {
                   target='_blank'
                   className='flex items-center space-x-2 rounded-lg border-2 border-gray-700 px-6 py-3 font-medium uppercase text-orange-600 transition-all hover:border-transparent hover:bg-orange-600 hover:text-lighted'
                 >
-                  <span className='text-sm font-semibold'>Download Cv</span>
+                  <span className='text-sm font-semibold transition-all hover:font-bold'>
+                    Download Cv
+                  </span>
                   <Download className='size-5' />
                 </Link>
               </div>

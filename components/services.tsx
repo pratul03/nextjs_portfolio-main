@@ -3,11 +3,11 @@ import { motion } from 'framer-motion'
 import FadeIn from '../lib/variants'
 import AnimatedCounter from '../lib/animatedCounter'
 import { tech } from './FAQ'
-import * as React from 'react';
+import * as React from 'react'
 
 const Services = () => {
   return (
-    <section id='services' className='z-30 -translate-y-1 bg-primary/[0.85]'>
+    <section id='services' className='z-30 -translate-y-1'>
       <div className='container w-full py-[100px] lg:py-[200px]'>
         <div className='flex flex-col justify-between gap-12 px-2 lg:flex-row lg:px-0'>
           <motion.div
@@ -54,9 +54,9 @@ const Services = () => {
             viewport={{ once: true, amount: 0.8 }}
             className='flex h-full flex-col gap-8'
           >
-            <div className='flex items-center space-x-6 bg-primary p-4'>
+            <div className='flex items-center space-x-6 rounded-lg bg-slate-200/10 p-4'>
               <p className='text-6xl font-bold text-gray-400'>01</p>
-              <div>
+              <div className=''>
                 <h2 className='mb-2 text-2xl font-bold text-orange-400'>
                   Front-end development
                 </h2>
@@ -66,7 +66,7 @@ const Services = () => {
                 </p>
               </div>
             </div>
-            <div className='flex items-center space-x-6 bg-primary p-4'>
+            <div className='flex items-center space-x-6 rounded-lg bg-slate-200/10 p-4'>
               <p className='text-6xl font-bold text-secondary/[0.85]'>02</p>
               <div>
                 <h2 className='mb-2 text-2xl font-bold'>

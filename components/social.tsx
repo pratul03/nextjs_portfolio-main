@@ -1,18 +1,18 @@
-import { FaGithub, FaYoutube, FaStackOverflow } from 'react-icons/fa'
+import { FaGithub, FaLinkedin, FaStackOverflow } from 'react-icons/fa'
 import Link from 'next/link'
 
 const socialLinks = [
   {
     icon: <FaGithub />,
-    path: 'https://github.com/amgoun'
+    path: 'https://github.com/pratul03'
   },
   {
-    icon: <FaYoutube />,
-    path: 'https://www.youtube.com/channel/UCbsnQ_ADchMvoOYgbrPsfFw'
+    icon: <FaLinkedin />,
+    path: 'https://www.linkedin.com/in/pratul-makar/'
   },
   {
     icon: <FaStackOverflow />,
-    path: 'https://stackoverflow.com/users/8044017/amgoun'
+    path: 'https://stackoverflow.com/users/23555468/pratul-makar'
   }
 ]
 const Social = () => {
@@ -23,7 +23,7 @@ const Social = () => {
           target='_blank'
           href={item.path}
           key={index}
-          className='duration-3000 flex size-10 items-center justify-center rounded-full border-2 border-blue text-blue hover:bg-blue/20 hover:transition-all'
+          className='flex size-11 items-center justify-center rounded-lg border-2 border-gray-400 text-gray-400 duration-300 hover:border-orange-400 hover:text-orange-400 hover:transition-all'
         >
           {item.icon}
         </Link>
