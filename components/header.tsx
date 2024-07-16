@@ -7,7 +7,7 @@ import MobileNav from '@/components/mobileNav'
 
 const Header = () => {
   return (
-    <header className='fixed z-50 w-full bg-primary py-6 xl:py-8'> 
+    <header className='fixed z-50 w-full bg-primary py-6 xl:py-8'>
       <div className='container mx-auto flex items-center justify-between'>
         {/* logo */}
         <Link to='/' spy={true} smooth={true} className='cursor-pointer'>
@@ -21,7 +21,7 @@ const Header = () => {
             to='/'
             spy={true}
             smooth={true}
-            className='text-md rounded-full bg-blue px-6 py-2 font-medium text-white transition-all hover:bg-blue/80'
+            className='text-md rounded-lg border-2 px-5 py-2 font-medium text-[#db511b] transition-all hover:border-[#db511b] hover:bg-[#db511b] hover:text-white'
           >
             Hire me
           </Link>
