@@ -1,6 +1,6 @@
-import { projectsData } from '@/lib/data'
-import React from 'react'
-import { Project } from '@/components/project'
+import { projectsData } from '@/lib/data';
+import React from 'react';
+import { Project } from '@/components/project';
 
 const Work = () => {
   return (

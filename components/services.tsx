@@ -1,9 +1,9 @@
-'use client'
-import { motion } from 'framer-motion'
-import FadeIn from '../lib/variants'
-import AnimatedCounter from '../lib/animatedCounter'
-import { tech } from './FAQ'
-import * as React from 'react'
+'use client';
+import { motion } from 'framer-motion';
+import FadeIn from '../lib/variants';
+import AnimatedCounter from '../lib/animatedCounter';
+import * as React from 'react';
+
 
 const Services = () => {
   return (
