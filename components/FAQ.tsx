@@ -1,7 +1,7 @@
 'use client'
 
 import Image from 'next/image'
-import { animate, motion } from 'framer-motion'
+import { motion } from 'framer-motion'
 
 import {
   Accordion,
@@ -21,7 +21,7 @@ const slideVariant = {
     x: '-135%',
     transition: {
       repeat: Infinity,
-      duration: 50
+      duration: 30
     }
   }
 }

@@ -1,9 +1,10 @@
-'use client';
-import { motion } from 'framer-motion';
-import FadeIn from '../lib/variants';
-import AnimatedCounter from '../lib/animatedCounter';
-import * as React from 'react';
+'use client'
+import { motion } from 'framer-motion'
+import FadeIn from '../lib/variants'
+import * as React from 'react'
+import dynamic from 'next/dynamic'
 
+const AnimatedCounter = dynamic(() => import('@/lib/animatedCounter'))
 
 const Services = () => {
   return (

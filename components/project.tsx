@@ -2,18 +2,12 @@
 import { useRef } from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
-
 import { projectsData } from '@/lib/data'
 import { useScroll, useTransform, motion } from 'framer-motion'
 
 type ProjectProps = (typeof projectsData)[number]
 
-export const Project = ({
-  title,
-  image,
-  category,
-  description
-}: ProjectProps) => {
+const Project = ({ title, image, category, description }: ProjectProps) => {
   const ref = useRef<HTMLDivElement>(null)
   const { scrollYProgress } = useScroll({
     target: ref,
@@ -50,3 +44,5 @@ export const Project = ({
     </motion.div>
   )
 }
+
+export default Project

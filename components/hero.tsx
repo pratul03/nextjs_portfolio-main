@@ -1,7 +1,9 @@
 import { Download } from 'lucide-react'
 import Link from 'next/link'
-import Social from '@/components/social'
-import Photo from '@/components/photo'
+import dynamic from 'next/dynamic'
+
+const Social = dynamic(() => import('@/components/social'))
+const Photo = dynamic(() => import('@/components/photo'))
 
 const Hero = () => {
   return (
