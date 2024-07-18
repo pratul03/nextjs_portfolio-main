@@ -16,7 +16,7 @@ const Header = () => {
             height={54.53}
             width={41.35}
             alt='logo'
-            className='text-white'
+            className='transition-all hover:scale-90 hover:cursor-pointer'
           />
         </Link>
 
