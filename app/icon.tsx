@@ -16,7 +16,7 @@ export default function Icon() {
       <div
         style={{
           fontSize: 24,
-          background: '#336Dff',
+          background: '#ff7033',
           width: '100%',
           height: '100%',
           display: 'flex',
@@ -25,7 +25,7 @@ export default function Icon() {
           color: 'white'
         }}
       >
-        R
+        P
       </div>
     ),
     {
