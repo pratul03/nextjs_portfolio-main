@@ -46,22 +46,22 @@ export const tech = [
     alt: 'typescript'
   },
   {
-    src: '/tech/expo.svg',
-    width: 89.96,
+    src: '/tech/java.svg',
+    width: 69.96,
     height: 32.49,
-    alt: 'expo'
+    alt: 'java'
   },
   {
-    src: '/tech/gql.svg',
+    src: '/tech/tailwind.svg',
     width: 47.48,
     height: 52.48,
-    alt: 'gql'
+    alt: 'tailwind'
   },
   {
-    src: '/tech/apollo.svg',
-    width: 47.48,
+    src: '/tech/spring.svg',
+    width: 87.48,
     height: 52.48,
-    alt: 'apollo'
+    alt: 'spring'
   },
   {
     src: '/tech/react.svg',
@@ -70,16 +70,22 @@ export const tech = [
     alt: 'react'
   },
   {
-    src: '/tech/angular.svg',
+    src: '/tech/nextjs.svg',
     width: 47.48,
     height: 51.23,
-    alt: 'angular'
+    alt: 'nextjs'
+  },
+  {
+    src: '/tech/mysql.svg',
+    width: 58.94,
+    height: 19.99,
+    alt: 'mysql'
   },
   {
     src: '/tech/psql.svg',
-    width: 128.94,
+    width: 58.94,
     height: 19.99,
-    alt: 'psql'
+    alt: 'postgresql'
   },
   {
     src: '/tech/prisma.svg',
