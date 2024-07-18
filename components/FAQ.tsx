@@ -21,7 +21,7 @@ const slideVariant = {
     x: '-135%',
     transition: {
       repeat: Infinity,
-      duration: 30
+      duration: 80
     }
   }
 }
@@ -92,6 +92,12 @@ export const tech = [
     width: 43.73,
     height: 51.23,
     alt: 'prisma'
+  },
+  {
+    src: '/tech/github.svg',
+    width: 43.73,
+    height: 51.23,
+    alt: 'github'
   }
 ]
 
@@ -147,6 +153,7 @@ const FAQ = () => {
                 width={item.width}
                 height={item.height}
                 alt={item.alt}
+                className='aspect-[2/3] mix-blend-darken'
               />
             ))}
           </motion.div>
