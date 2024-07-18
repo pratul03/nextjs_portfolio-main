@@ -11,7 +11,13 @@ const Header = () => {
       <div className='container mx-auto flex cursor-pointer items-center justify-between'>
         {/* logo */}
         <Link to='/' spy={true} smooth={true} className='cursor-pointer'>
-          <Image src='/logo.svg' height={54.53} width={41.35} alt='logo' />
+          <Image
+            src='/logo.svg'
+            height={54.53}
+            width={41.35}
+            alt='logo'
+            className='text-white'
+          />
         </Link>
 
         {/* desktop nav */}
