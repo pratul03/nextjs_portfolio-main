@@ -22,7 +22,8 @@ export default function Icon() {
           display: 'flex',
           alignItems: 'center',
           justifyContent: 'center',
-          color: 'white'
+          color: 'white',
+          borderRadius: '8px'
         }}
       >
         P
