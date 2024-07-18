@@ -23,14 +23,14 @@ const Project = ({ title, image, category, description }: ProjectProps) => {
         scale: scaleProgress,
         opacity: opacityProgress
       }}
-      className='flex flex-col items-center rounded-3xl bg-blue/10 p-4 xl:flex-row xl:justify-between'
+      className='flex flex-col items-center rounded-3xl bg-gray-400/20 p-4 xl:flex-row xl:justify-between'
     >
       <div className='pb-[60px]'>
         <h5 className='text-sm font-medium capitalize'>{category}</h5>
-        <h3 className='mt-4 text-[40px] font-light'>{title}</h3>
+        <h3 className='mt-4 text-[40px] font-semibold'>{title}</h3>
         <p className='mb-4 mt-4 max-w-xl'>{description}</p>
       </div>
-      <div className='flex rotate-45 items-center justify-center rounded-[50px] outline-[3px] outline-offset-8 outline-blue transition-all hover:outline'>
+      <div className='flex rotate-45 items-center justify-center rounded-[50px] outline-[3px] outline-offset-8 outline-orange-600 transition-all hover:outline'>
         <Link href='/'>
           <Image
             src={image}
